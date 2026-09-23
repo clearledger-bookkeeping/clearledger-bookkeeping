@@ -1,0 +1,16 @@
+CLEARLEDGER DEPLOYMENT
+
+1. Create a GitHub repository.
+2. Upload all files in this folder.
+3. Import that repository into Vercel.
+4. Add Environment Variables in Vercel:
+   OPENAI_API_KEY = your real OpenAI API key
+   OPENAI_MODEL = gpt-5-mini
+5. Deploy.
+6. Test the AI assistant on the Vercel URL.
+7. Add your custom domain in Vercel > Settings > Domains.
+
+IMPORTANT:
+- Do not put the API key in index.html.
+- Do not commit .env.
+- Do not use GitHub Pages for the GPT version; use Vercel for the serverless API.
